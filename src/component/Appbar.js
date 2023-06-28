@@ -156,7 +156,7 @@ export default function Appbar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" sx={{ backgroundColor: '#4ec667' }}>
         <Toolbar>
           <IconButton
             size="large"
@@ -173,7 +173,7 @@ export default function Appbar() {
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
           >
-            MUI
+            Energy Savings Estimator
           </Typography>
           <Search>
             <SearchIconWrapper>
