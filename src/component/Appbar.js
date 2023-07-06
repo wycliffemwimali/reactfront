@@ -156,7 +156,7 @@ export default function Appbar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{ backgroundColor: '#4ec667' }}>
+      <AppBar position="static" sx={{ backgroundColor: '#18c924' }}>
         <Toolbar>
           <IconButton
             size="large"
@@ -187,7 +187,7 @@ export default function Appbar() {
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
             <IconButton size="large" aria-label="show 4 new mails" color="inherit">
-              <Badge badgeContent={4} color="error">
+              <Badge badgeContent={3} color="error">
                 <MailIcon />
               </Badge>
             </IconButton>
@@ -196,7 +196,7 @@ export default function Appbar() {
               aria-label="show 17 new notifications"
               color="inherit"
             >
-              <Badge badgeContent={17} color="error">
+              <Badge badgeContent={12} color="error">
                 <NotificationsIcon />
               </Badge>
             </IconButton>
